@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParamWithValueList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <version>20080502</version>
+  <parameterTypes>
+    <ParamType>
+      <typeName>Inventor</typeName>
+      <typeCode>0</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>String</typeName>
+      <typeCode>1</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>Boolean</typeName>
+      <typeCode>2</typeCode>
+    </ParamType>
+  </parameterTypes>
+  <parameters>
+    <ParamWithValue>
+      <name>d0</name>
+      <typeCode>mm</typeCode>
+      <value>BoxWidth</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d1</name>
+      <typeCode>mm</typeCode>
+      <value>BoxLength</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d2</name>
+      <typeCode>mm</typeCode>
+      <value>BaseThickness</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d3</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d5</name>
+      <typeCode>mm</typeCode>
+      <value>Height - ( BaseThickness + TopThickness )</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d6</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>SideThickness</name>
+      <typeCode>mm</typeCode>
+      <value>6 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>BaseThickness</name>
+      <typeCode>mm</typeCode>
+      <value>3 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>TopThickness</name>
+      <typeCode>mm</typeCode>
+      <value>0.07 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>BoxWidth</name>
+      <typeCode>mm</typeCode>
+      <value>130 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>BoxLength</name>
+      <typeCode>mm</typeCode>
+      <value>85 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>Height</name>
+      <typeCode>mm</typeCode>
+      <value>30 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>MotorDiameter</name>
+      <typeCode>mm</typeCode>
+      <value>16.5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>DriveMotorHeight</name>
+      <typeCode>mm</typeCode>
+      <value>Height / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d18</name>
+      <typeCode>mm</typeCode>
+      <value>DriveMotorHeight</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>DriveMotorMountThickness</name>
+      <typeCode>mm</typeCode>
+      <value>2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d20</name>
+      <typeCode>mm</typeCode>
+      <value>DriveMotorMountThickness</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d21</name>
+      <typeCode>mm</typeCode>
+      <value>14 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d22</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d25</name>
+      <typeCode>mm</typeCode>
+      <value>20 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d26</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d31</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d36</name>
+      <typeCode>mm</typeCode>
+      <value>BoxWidth - ( 2 ul * SideThickness )</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d37</name>
+      <typeCode>mm</typeCode>
+      <value>BoxLength - 2 ul * SideThickness</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M2ScrewInsertDia</name>
+      <typeCode>mm</typeCode>
+      <value>2.9 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M2ScrewInsertDepth</name>
+      <typeCode>mm</typeCode>
+      <value>7 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d120</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewHeadDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M3ScrewHeadDia</name>
+      <typeCode>mm</typeCode>
+      <value>6.1 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M3ScrewDia</name>
+      <typeCode>mm</typeCode>
+      <value>3.1 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M3ScrewHeadDepth</name>
+      <typeCode>mm</typeCode>
+      <value>2.3 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d121</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewHeadDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d122</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewHeadDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d123</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewHeadDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d124</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewHeadDepth</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d125</name>
+      <typeCode>deg</typeCode>
+      <value>M3ScrewHeadTaper</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d126</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d127</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d128</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d129</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d131</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d132</name>
+      <typeCode>mm</typeCode>
+      <value>ForkScrewOffset - TopThickness</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d133</name>
+      <typeCode>mm</typeCode>
+      <value>ForkScrewOffset - BaseThickness</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d139</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewInsertDia - 0.2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d140</name>
+      <typeCode>mm</typeCode>
+      <value>M2ScrewInsertDepth</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d141</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>DriveMotorOffset</name>
+      <typeCode>mm</typeCode>
+      <value>BoxLength / 2 ul + SideThickness / 2 ul + M3ScrewInsertBrim / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d145</name>
+      <typeCode>mm</typeCode>
+      <value>15.5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d146</name>
+      <typeCode>mm</typeCode>
+      <value>15.500 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d147</name>
+      <typeCode>mm</typeCode>
+      <value>12.2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d148</name>
+      <typeCode>mm</typeCode>
+      <value>DriveMotorHoleDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>DriveMotorDia</name>
+      <typeCode>mm</typeCode>
+      <value>16.5 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>SideArmorWidth</name>
+      <typeCode>mm</typeCode>
+      <value>15 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ForkLength</name>
+      <typeCode>mm</typeCode>
+      <value>80 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>WheelWidth</name>
+      <typeCode>mm</typeCode>
+      <value>0.65 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>DriveMotorHoleDia</name>
+      <typeCode>mm</typeCode>
+      <value>4.2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ForkPlugDia</name>
+      <typeCode>mm</typeCode>
+      <value>4 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ForkPlugTolerance</name>
+      <typeCode>mm</typeCode>
+      <value>0.75 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ForkPlugLength</name>
+      <typeCode>mm</typeCode>
+      <value>8 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d152</name>
+      <typeCode>mm</typeCode>
+      <value>M2ScrewHeadDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d153</name>
+      <typeCode>mm</typeCode>
+      <value>SideScrewVerticalOffset + ( BaseThickness - TopThickness )</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d154</name>
+      <typeCode>mm</typeCode>
+      <value>M2ScrewHeadDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d156</name>
+      <typeCode>mm</typeCode>
+      <value>M2ScrewHeadDepth</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d157</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d158</name>
+      <typeCode>mm</typeCode>
+      <value>M2ScrewDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d159</name>
+      <typeCode>mm</typeCode>
+      <value>M2ScrewDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d161</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d163</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewInsertDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d164</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewInsertDia</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d165</name>
+      <typeCode>mm</typeCode>
+      <value>SideScrewVerticalOffset + ( BaseThickness - TopThickness )</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d166</name>
+      <typeCode>mm</typeCode>
+      <value>SideScrewVerticalOffset</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d168</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>SideScrewVerticalOffset</name>
+      <typeCode>mm</typeCode>
+      <value>6 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M3ScrewInsertDia</name>
+      <typeCode>mm</typeCode>
+      <value>4 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M3ScrewInsertDepth</name>
+      <typeCode>mm</typeCode>
+      <value>7 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M2ScrewHeadDia</name>
+      <typeCode>mm</typeCode>
+      <value>4 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M2ScrewHeadDepth</name>
+      <typeCode>mm</typeCode>
+      <value>2.2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M2ScrewDia</name>
+      <typeCode>mm</typeCode>
+      <value>2.2 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d173</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewInsertBrim</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d176</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewInsertBrim</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d177</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewInsertBrim</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d178</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewInsertBrim</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M3ScrewInsertBrim</name>
+      <typeCode>mm</typeCode>
+      <value>8 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d179</name>
+      <typeCode>mm</typeCode>
+      <value>ForkScrewOffset</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ForkScrewOffset</name>
+      <typeCode>mm</typeCode>
+      <value>8 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d180</name>
+      <typeCode>mm</typeCode>
+      <value>ForkScrewOffset</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>RearScrewHorizontalOffset</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewInsertBrim + 6 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d181</name>
+      <typeCode>mm</typeCode>
+      <value>RearScrewHorizontalOffset</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>SideScrewHorizontalOffset</name>
+      <typeCode>mm</typeCode>
+      <value>M3ScrewInsertBrim + SideThickness / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d182</name>
+      <typeCode>mm</typeCode>
+      <value>SideScrewHorizontalOffset</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d183</name>
+      <typeCode>mm</typeCode>
+      <value>DriveMotorOffset</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>M3ScrewHeadTaper</name>
+      <typeCode>deg</typeCode>
+      <value>-32.5 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+  </parameters>
+</ParamWithValueList>
